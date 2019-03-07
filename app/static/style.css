@@ -1,5 +1,10 @@
 body {
-    background-color: #fff;
+    background-color: white;
+}
+
+p {
+    color: #42282E;
+    font-size: 24px;
 }
 
 .no-display {
@@ -16,10 +21,10 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 48px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #42282E;
 }
 
 .content {
@@ -45,20 +50,20 @@ button.choose-file-button {
   width: 200px;
   height: 40px;
   border-radius: 2px;
-  background-color: #ffffff;
-  border: solid 1px #7052CB;
+  background-color: white;
+  border: solid 2px #75A48B;
   font-size: 13px;
-  color: #7052CB;
+  color: #75A48B;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 2px #75A48B;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #75A48B;
     font-size: 13px;
-    color: #ffffff;
+    color: white;
 }
 
 button:focus {outline:0;}
